@@ -55,8 +55,8 @@
 			$mail->SMTPSecure = 'ssl';
 			$mail->Host = 'smtp.gmail.com';
 			$mail->Port = 465;
-			$mail->Username = "christhian.stoever@gmail.com";
-			$mail->Password = "xixan*1994";
+			$mail->Username = "";
+			$mail->Password = "";
 			$mail->SetFrom("christhian.stoever@gmail.com", "50anos GEPJ");
 			$mail->Subject = "Algúem enviu fotos";
 			$mail->Body = "
